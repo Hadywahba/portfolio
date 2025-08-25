@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+
 import { skillsvarient } from "../../animation/skillsAnimation";
 import { links } from "../../Constant/skils";
 import { motion } from "framer-motion";
@@ -7,11 +7,7 @@ import { motion } from "framer-motion";
 export default function Skills() {
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Skills</title>
-        <link rel="canonical" href="http://mysite.com/example" />
-      </Helmet>
+    
 
       <div className="container  px-4 my-20 " id="skills">
         <div className=" top-title mb-24">

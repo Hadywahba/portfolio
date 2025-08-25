@@ -15,16 +15,12 @@ import {
   LeftVarient,
   RightVarient,
 } from "../../animation/homeAnimation";
-import { Helmet } from "react-helmet";
+
 
 export default function Home() {
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Home</title>
-        <link rel="canonical" href="http://mysite.com/example" />
-      </Helmet>
+    
       <div
         className="body flex flex-col items-center justify-center    md:flex-row md:items-center  md:justify-between  container px-4  md:px-4 my-20 "
         id="home"

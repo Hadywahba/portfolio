@@ -14,7 +14,7 @@ import {
   MdTouchApp,
 } from "react-icons/md";
 import { TbDeviceLaptop } from "react-icons/tb";
-import { Helmet } from "react-helmet";
+
 
 // import style from "../templates/Services.module.css"
 export default function Services() {
@@ -47,11 +47,7 @@ export default function Services() {
 
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Services</title>
-        <link rel="canonical" href="http://mysite.com/example" />
-      </Helmet>
+     
       <div className="  container   px-4 my-20 " id="services">
         <div className="top-title   ">
           <h2 className="  text-4xl w-fit text-center mx-auto  font-bold cursor-pointer  text-primary dark:text-[#ADFF2F]">

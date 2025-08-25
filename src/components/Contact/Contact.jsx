@@ -6,7 +6,6 @@ import { FormSchema } from "../../validation/formvalidation";
 import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 import { useMutation } from "@tanstack/react-query";
-import { Helmet } from "react-helmet";
 export default function Contact() {
   const submitData = (data) => {
     const formData = new FormData();
@@ -40,12 +39,7 @@ export default function Contact() {
 
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Contact</title>
-        <link rel="canonical" href="http://mysite.com/example" />
-      </Helmet>
-
+     
       <div className="container  px-4 mt-20 mb-0  " id="contact">
         <div className=" top-title mb-24 ">
           <h2 className="text-4xl text-center w-fit font-bold cursor-pointer mx-auto  text-primary dark:text-[#ADFF2F]">

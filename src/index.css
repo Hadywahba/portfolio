@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite';
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.active{
+   @apply  text-white   md:text-main md:dark:text-colo3 dark:bg-col4 md:dark:bg-transparent bg-colo3 md:bg-transparent
+}
+
+.dark .portfolio-name{
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   border: 2px solid #ADFF2F;
+}
+.portfolio-name{
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+    border: 2px solid #32CD32;
+ }
+
+
+.dark .icolcircle{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+  border: 2px solid #ADFF2F;
+ }
+  .icolcircle{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+  border: 2px solid #32CD32;
+ }
+  .top-title h2{
+position: relative;
+                       /* مهم علشان الخط يبقى حسب حجم الكلمة */
+  }
+.dark .top-title h2::after{
+content: "";
+position: absolute;
+border: 2px solid #ADFF2F;
+width: 50px;
+bottom: -10px;
+left: 50%;
+transform: translateX(-50%);
+ }
+ .top-title h2::after{
+content: "";
+position: absolute;
+border: 2px solid #32CD32;
+width: 50px;
+bottom: -10px;
+left: 50%;
+transform: translateX(-50%);
+ }
+ .top-title h2:hover::after{
+   width: 100%;
+   transition: 0.5s all;
+ }
+
+
+
+ /* spinner  */
+
+
+ /*  */
+@media (max-width: 770px) {
+   .title{
+font-size: 14px;
+}
+
+   } 
+
+
+
+   @media (max-width: 342px) {
+   .title{
+font-size: 13px;
+}
+.porname{
+  font-size: 30px;
+}
+   }
+   .prof-img1{
+
+width: 270px ;
+height: 270px;
+
+}
+
+
+   .prof-img2{
+width: 250px ;
+height: 250px;
+
+}
+
+    @media (min-width: 344px) {
+   .title{
+font-size: 14px;
+}
+
+.porname{
+  font-size: 40px;
+}
+   }
+     @media (min-width: 475px) {
+   .title{
+font-size: 20px;
+}
+.prof-img1{
+
+width: 330px ;
+height: 330px;
+
+}
+
+
+   .prof-img2{
+width: 300px ;
+height: 300px;
+
+}
+   }
+
+ 
+
+   /* w-from 768 to    w-240 h-240      """           */
+ @media (min-width: 768px) {
+.prof-img1{
+
+width: 250px ;
+height: 250px;
+
+}
+
+
+   .prof-img2{
+width: 243px ;
+height: 243px;
+
+}
+   }
+  
+
+   @media (min-width: 799px) {
+
+.prof-img1{
+
+width: 320px ;
+height: 320px;
+
+}
+   .prof-img2{
+width: 300px ;
+height: 300px;
+
+}
+.title{
+font-size: 18px;
+}
+
+   }
+   
+
+
+    @media (min-width: 900px) {
+
+   .prof-img1{
+
+width: 340px ;
+height: 340px;
+
+}
+
+   .prof-img2{
+width: 320px ;
+height: 320px;
+
+}
+.title{
+font-size: 17px;
+}
+   }
+   
+  /* 1280 */
+   /* @media (min-width: 1280px) {
+.services{
+   padding-inline: 150px;
+}
+
+   } */
+
+
+      @media (min-width: 1024px) {
+  .prof-img1{
+
+width: 420px ;
+height: 420px;
+
+}
+   .prof-img2{
+width: 400px ;
+height: 400px;
+
+}
+.title{
+font-size: 20px;
+}
+   }
+   
+   .phone{
+      border-radius: 50%;
+       width: 60px;
+   height: 60px;
+   }
+  .item-text{
+   line-height: 1.8;
+  }
+
+  .items-all{
+   border-radius: 80px 20px;
+  }
+  .about-all{
+    border-radius: 150px 20px;
+  }

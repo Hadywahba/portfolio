@@ -7,11 +7,18 @@ import {
 } from "../../animation/projectAnimation";
 import { motion } from "framer-motion";
 import { projects } from "../../Constant/projects";
+import { Helmet } from "react-helmet";
 
 // import style from "../templates/Projects.module.css"
 export default function Projects() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Projects</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+
       <div className=" container px-4 my-20" id="projects">
         <div className=" top-title mb-24">
           <h2 className="text-4xl text-center w-fit font-bold cursor-pointer mx-auto  text-primary dark:text-[#ADFF2F]">

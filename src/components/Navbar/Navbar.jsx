@@ -27,7 +27,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
 
         <div className="flex gap-8">
           <div
-            className={` ${openButton ? 'visible' : 'hidden'} md:block  w-full absolute bg-slate-200 rounded-t-xl dark:bg-slate-900   md:relative md:top-0 top-[110px]  left-0  md:w-auto`}
+            className={` ${openButton ? 'visible' : 'hidden'} md:block  w-full absolute z-50 bg-slate-200 rounded-t-xl dark:bg-slate-900   md:relative md:top-0 top-[110px]  left-0  md:w-auto`}
             id="navbar-default"
           >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg  md:bg-transparent md:border-transparent md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">

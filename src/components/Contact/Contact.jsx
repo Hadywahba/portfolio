@@ -12,8 +12,8 @@ export default function Contact() {
     formData.append("FirstName", data.FirstName);
     formData.append("LastName", data.LastName);
     formData.append("email", data.email);
-    formData.append("subject", data.subject);
-    formData.append("message", data.message);
+    formData.append("phone", data.phone);
+    formData.append("TextArea", data.TextArea);
     return axios.post("https://formspree.io/f/meoljwoq", formData, {
       headers: {
         Accept: "application/json",

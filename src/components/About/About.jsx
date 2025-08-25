@@ -1,6 +1,6 @@
 // import style from "../templates/About.module.css"
 import { CiLocationOn } from "react-icons/ci";
-import img2 from "../../assets/WhatsApp Image 2025-07-20 at 21.22.56_d3d327ac.jpg";
+import img2 from "/public/WhatsApp Image 2025-07-20 at 21.22.56_d3d327ac.jpg";
 import { MdOutlineMail, MdWorkspacePremium } from "react-icons/md";
 import { FaBirthdayCake, FaPhoneAlt } from "react-icons/fa";
 import { motion } from "framer-motion";

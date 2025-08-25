@@ -1,6 +1,6 @@
 export const projects = [
   {
-    icon: "/src/assets/images/social-app.png",
+    icon: "/public/images/social-app.png",
     label: "Social Media App",
     text: "Built an intuitive e-commerce platform with smooth product browsing and secure checkout",
     id: "1",
@@ -18,7 +18,7 @@ export const projects = [
     repo: "https://github.com/Hadywahba/Social-APP",
   },
   {
-    icon: "/src/assets/images/THINKUP.png",
+    icon: "/public/images/THINKUP.png",
     label: "ThinkUp",
     text: "Note-taking app designed for easy creation, organization, and management of notes, featuring a clean interface and smooth user experience",
     id: "2",
@@ -40,7 +40,7 @@ export const projects = [
     repo: "https://github.com/Hadywahba/Note-App",
   },
   {
-    icon: "/src/assets/images/Macbook-Air-1559x975d.png",
+    icon: "/public/images/Macbook-Air-1559x975d.png",
     label: " Fresh Cart | E-commerce website for products. ",
     text: "Integrated a seamless e-commerce platform for easy browsing and secure purchasing of products. ",
     id: "3",
@@ -63,7 +63,7 @@ export const projects = [
   },
 
   {
-    icon: "/src/assets/images/menu.png",
+    icon: "/public/images/menu.png",
     label: "Yummy",
     text: "Web application for restaurants that allows users to select their favorite recipes and save them to their favorites list.",
     id: "4",
@@ -80,7 +80,7 @@ export const projects = [
     repo: "https://github.com/Hadywahba/Menu",
   },
   {
-    icon: "/src/assets/images/weather.png",
+    icon: "/public/images/weather.png",
     label: "weather",
     text: "Weather App is a web application that provides real-time weather information for 3 days in different countries with the ability to search for a specific country, Stay informed about the current temperature, wind speed, humidity, and cloud cover.",
     id: "5",
@@ -89,7 +89,7 @@ export const projects = [
     repo: "https://github.com/Hadywahba/weather",
   },
   {
-    icon: "/src/assets/images/bookmark.png",
+    icon: "/public/images/bookmark.png",
     label: "Bookmarker",
     text: "Bookmark is a web application that allows users to bookmark their favorite websites, it provides basic CRUD (Create, Read, Update, Delete) operations for managing bookmarks. ",
     id: "6",
@@ -116,7 +116,7 @@ export const projects = [
     repo: "https://github.com/Hadywahba/login",
   },
   {
-    icon: "/src/assets/images/Daniel.png",
+    icon: "/public/images/Daniel.png",
     label: "Daniel",
     text: "A ui website is personal project.",
 

@@ -1,6 +1,6 @@
 // import style from "../templates/Home.module.css"
 import { ReactTyped } from "react-typed";
-import pic from "../../assets/IMG-20240422-WA0028.jpg";
+import pic from "/public/IMG-20240422-WA0028.jpg";
 import {
   FaArrowDown,
   FaFacebookF,

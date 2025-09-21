@@ -7,7 +7,7 @@ export const projects = [
     tech: [
       "HTML",
       "CSS",
-      "Tailwind",
+      "MUI",
       "Next.js",
       "Typescribt",
       "REST API",

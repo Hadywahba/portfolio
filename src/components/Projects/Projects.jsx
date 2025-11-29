@@ -38,7 +38,7 @@ export default function Projects() {
             >
               <div className="relative">
                 <img
-                  className="rounded-t-xl  object-cover"
+                  className="rounded-t-xl  object-cover h-[200px] w-full"
                   src={project.icon}
                   alt={project.label}
                 />

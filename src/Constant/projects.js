@@ -1,9 +1,26 @@
 export const projects = [
+   {
+    icon: "/images/post-pilot.png",
+    label: "PostPilot Landing page",
+   text: "A modern, animated landing page built with smooth scroll interactions, Swiper sliders, and Framer Motion animations.",
+    id: "1",
+    tech: [
+      "HTML",
+      "CSS",
+      "Next.js",
+      "Typescribt",
+      "Swiper",
+      "Framer Motion",
+      "React Icons",
+    ],
+    link: "https://post-pilot-eta.vercel.app/",
+    repo: "https://github.com/Hadywahba/Post-Pilot",
+  },
   {
     icon: "/images/social-app.png",
     label: "Social Media App",
     text: "Built an intuitive e-commerce platform with smooth product browsing and secure checkout",
-    id: "1",
+    id: "2",
     tech: [
       "HTML",
       "CSS",
@@ -21,7 +38,7 @@ export const projects = [
     icon: "/images/THINK-UP.png",
     label: "ThinkUp",
     text: "Note-taking app designed for easy creation, organization, and management of notes, featuring a clean interface and smooth user experience",
-    id: "2",
+    id: "3",
     tech: [
       "HTML",
       "CSS",
@@ -43,7 +60,7 @@ export const projects = [
     icon: "/images/Macbook-Air.png",
     label: " Fresh Cart | E-commerce website for products. ",
     text: "Integrated a seamless e-commerce platform for easy browsing and secure purchasing of products. ",
-    id: "3",
+    id: "4",
     tech: [
       "HTML",
       "CSS",

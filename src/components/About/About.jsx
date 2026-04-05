@@ -1,33 +1,30 @@
 // import style from "../templates/About.module.css"
-import { CiLocationOn } from "react-icons/ci";
-import img2 from "/public/WhatsApp Image 2025-07-20 at 21.22.56_d3d327ac.jpg";
-import { MdOutlineMail, MdWorkspacePremium } from "react-icons/md";
-import { FaBirthdayCake, FaPhoneAlt } from "react-icons/fa";
-import { motion } from "framer-motion";
+import { CiLocationOn } from 'react-icons/ci';
+import img2 from '/public/WhatsApp Image 2025-07-20 at 21.22.56_d3d327ac.jpg';
+import { MdOutlineMail, MdWorkspacePremium } from 'react-icons/md';
+import { FaBirthdayCake, FaPhoneAlt } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 import {
   containerVariant,
   LeftVarient,
   RightVarient,
-} from "../../animation/aboutAnimation";
-
+} from '../../animation/aboutAnimation';
 
 export default function About() {
   return (
     <>
-      
-
-      <div className=" container   p-4 my-20 ">
-        <div className="top-title mb-24 ">
-          <h2 className="  text-4xl text-center w-fit mx-auto font-bold cursor-pointer  text-primary dark:text-[#ADFF2F]">
+      <div className="container my-20 p-4">
+        <div className="top-title mb-24">
+          <h2 className="text-primary mx-auto w-fit cursor-pointer text-center text-4xl font-bold dark:text-[#ADFF2F]">
             About Me
           </h2>
         </div>
         <div
-          className="flex flex-col md:flex-row gap-12 justify-between  text-center md:text-left my-16"
+          className="my-16 flex flex-col justify-between gap-12 text-center md:flex-row md:text-left"
           id="about"
         >
           {/* Right Section (text and info) */}
-          <div className="right-about w-full md:w-1/2 flex flex-col gap-4">
+          <div className="right-about flex w-full flex-col gap-4 md:w-1/2">
             <motion.div
               variants={containerVariant}
               initial="hidden"
@@ -36,7 +33,7 @@ export default function About() {
             >
               <motion.p
                 variants={LeftVarient}
-                className="text-xl mb-4 abut text-black dark:text-white md:text-justify"
+                className="abut mb-4 text-xl text-black dark:text-white md:text-justify"
               >
                 I'm Hady Wahba, a passionate Front-End Developer with a
                 background in Mechatronics Engineering. I enjoy building
@@ -55,42 +52,42 @@ export default function About() {
             >
               <motion.div
                 variants={LeftVarient}
-                className="dark:bg-slate-600  hover:animate-bounce about-all shadow-xl bg-slate-300 bg-opacity-40 gap-4 cursor-pointer hover:bg-text-dark-color hover:text-white dark:hover:bg-text-color dark:hover:text-black w-full flex justify-start items-center p-4 mt-12 mb-10"
+                className="about-all mb-10 mt-12 flex w-full cursor-pointer items-center justify-start gap-4 bg-slate-300 bg-opacity-40 p-4 shadow-xl hover:animate-bounce hover:bg-text-dark-color hover:text-white dark:bg-slate-600 dark:hover:bg-text-color dark:hover:text-black"
               >
-                <CiLocationOn className="text-4xl ps-4" />
-                <h4 className="text-md md:text-xl font-Lato">
+                <CiLocationOn className="ps-4 text-4xl" />
+                <h4 className="text-md font-Lato md:text-xl">
                   Alexandria, Egypt
                 </h4>
               </motion.div>
               <motion.div
                 variants={LeftVarient}
-                className="dark:bg-slate-600 about-all shadow-xl hover:animate-bounce  bg-slate-300 bg-opacity-40 gap-4 cursor-pointer hover:bg-text-dark-color hover:text-white dark:hover:bg-text-color dark:hover:text-black w-full flex justify-start items-center p-4 mb-10"
+                className="about-all mb-10 flex w-full cursor-pointer items-center justify-start gap-4 bg-slate-300 bg-opacity-40 p-4 shadow-xl hover:animate-bounce hover:bg-text-dark-color hover:text-white dark:bg-slate-600 dark:hover:bg-text-color dark:hover:text-black"
               >
-                <MdOutlineMail className="text-4xl ps-4" />
-                <h4 className="text-md md:text-xl font-Lato">
+                <MdOutlineMail className="ps-4 text-4xl" />
+                <h4 className="text-md font-Lato md:text-xl">
                   hadywahba19@gmail.com
                 </h4>
               </motion.div>
               <motion.div
                 variants={LeftVarient}
-                className="dark:bg-slate-600 about-all shadow-xl hover:animate-bounce bg-slate-300 bg-opacity-40 gap-4 cursor-pointer hover:bg-text-dark-color hover:text-white dark:hover:bg-text-color dark:hover:text-black w-full flex justify-start items-center p-4 mb-10"
+                className="about-all mb-10 flex w-full cursor-pointer items-center justify-start gap-4 bg-slate-300 bg-opacity-40 p-4 shadow-xl hover:animate-bounce hover:bg-text-dark-color hover:text-white dark:bg-slate-600 dark:hover:bg-text-color dark:hover:text-black"
               >
-                <FaPhoneAlt className="text-4xl ps-4" />
-                <h4 className="text-md md:text-xl font-Lato">01010432457</h4>
+                <FaPhoneAlt className="ps-4 text-4xl" />
+                <h4 className="text-md font-Lato md:text-xl">01010432457</h4>
               </motion.div>
               <motion.div
                 variants={LeftVarient}
-                className="dark:bg-slate-600 about-all shadow-xl hover:animate-bounce  bg-slate-300 bg-opacity-40 gap-4 cursor-pointer hover:bg-text-dark-color hover:text-white dark:hover:bg-text-color dark:hover:text-black w-full flex justify-start items-center p-4 mb-10"
+                className="about-all mb-10 flex w-full cursor-pointer items-center justify-start gap-4 bg-slate-300 bg-opacity-40 p-4 shadow-xl hover:animate-bounce hover:bg-text-dark-color hover:text-white dark:bg-slate-600 dark:hover:bg-text-color dark:hover:text-black"
               >
-                <FaBirthdayCake className="text-4xl ps-4" />
-                <h4 className="text-md md:text-xl font-Lato">26</h4>
+                <FaBirthdayCake className="ps-4 text-4xl" />
+                <h4 className="text-md font-Lato md:text-xl">26</h4>
               </motion.div>
               <motion.div
                 variants={LeftVarient}
-                className="dark:bg-slate-600 about-all shadow-xl  hover:animate-bounce bg-slate-300 bg-opacity-40 gap-4 cursor-pointer hover:bg-text-dark-color hover:text-white dark:hover:bg-text-color dark:hover:text-black w-full flex justify-start items-center p-4 "
+                className="about-all flex w-full cursor-pointer items-center justify-start gap-4 bg-slate-300 bg-opacity-40 p-4 shadow-xl hover:animate-bounce hover:bg-text-dark-color hover:text-white dark:bg-slate-600 dark:hover:bg-text-color dark:hover:text-black"
               >
-                <MdWorkspacePremium className="text-4xl ps-4" />
-                <h4 className="text-md md:text-xl font-Lato ">1 Year</h4>
+                <MdWorkspacePremium className="ps-4 text-4xl" />
+                <h4 className="text-md font-Lato md:text-xl">1 Year</h4>
               </motion.div>
             </motion.div>
           </div>
@@ -100,10 +97,10 @@ export default function About() {
             variants={RightVarient}
             initial="hidden"
             animate="visible"
-            className="left-about  w-[450px] hidden md:flex dark:hover:shadow-2xl dark:hover:shadow-text-color hover:scale-105"
+            className="left-about hidden w-[450px] hover:scale-105 dark:hover:shadow-2xl dark:hover:shadow-text-color md:flex"
           >
             <img
-              className="w-full h-auto  rounded-lg  max-w-full "
+              className="h-auto w-full max-w-full rounded-lg"
               src={img2}
               alt="hady2"
             />

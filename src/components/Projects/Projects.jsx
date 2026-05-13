@@ -13,9 +13,12 @@ const allTechs = ['All', 'Next.js', 'React.js', 'TypeScript', 'JavaScript'];
 export default function Projects() {
   const [active, setActive] = useState('All');
 
-  const filtered = active === 'All'
-    ? projects
-    : projects.filter((p) => p.tech.some((t) => t.toLowerCase() === active.toLowerCase()));
+  const filtered =
+    active === 'All'
+      ? projects
+      : projects.filter((p) =>
+          p.tech.some((t) => t.toLowerCase() === active.toLowerCase()),
+        );
 
   return (
     <div className="container my-20 px-4" id="projects">
@@ -26,15 +29,15 @@ export default function Projects() {
       </div>
 
       {/* Filter Buttons */}
-      <div className="flex flex-wrap justify-center gap-3 mb-12">
+      <div className="mb-12 flex flex-wrap justify-center gap-3">
         {allTechs.map((tech) => (
           <button
             key={tech}
             onClick={() => setActive(tech)}
-            className={`px-5 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
+            className={`rounded-full px-5 py-2 text-sm font-semibold transition-all duration-300 ${
               active === tech
-                ? 'bg-text-dark-color dark:bg-text-color text-white dark:text-black'
-                : 'bg-slate-200 dark:bg-slate-700 text-gray-700 dark:text-gray-200 hover:bg-text-dark-color hover:text-white dark:hover:bg-text-color dark:hover:text-black'
+                ? 'bg-text-dark-color text-white dark:bg-text-color dark:text-black'
+                : 'bg-slate-200 text-gray-700 hover:bg-text-dark-color hover:text-white dark:bg-slate-700 dark:text-gray-200 dark:hover:bg-text-color dark:hover:text-black'
             }`}
           >
             {tech}
@@ -71,11 +74,13 @@ export default function Projects() {
                       <FaExternalLinkAlt />
                     </a>
                   </motion.div>
-                  <motion.div variants={LefticonVarient}>
-                    <a href={project.repo} target="_blank" rel="noreferrer">
-                      <FaGithub />
-                    </a>
-                  </motion.div>
+                  {project.repo && (
+                    <motion.div variants={LefticonVarient}>
+                      <a href={project.repo} target="_blank" rel="noreferrer">
+                        <FaGithub />
+                      </a>
+                    </motion.div>
+                  )}
                 </motion.div>
               </div>
 

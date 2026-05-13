@@ -63,6 +63,7 @@ export const projects = [
       'React Query',
     ],
     link: 'https://rose-lac-iota.vercel.app/en',
+    repo: 'https://github.com/Hadywahba/Rose',
   },
   {
     icon: '/images/amer.png',

@@ -34,14 +34,14 @@ const timelineData = [
     date: '2025 – Present',
     desc: 'Currently advancing my skills in Next.js through hands-on training and building real-world projects using React.js, Next.js, TypeScript, and Tailwind CSS. Passionate about developing responsive, high-performance web applications and working with REST APIs.',
   },
-  // {
-  //   type: 'work',
-  //   icon: <FaBriefcase />,
-  //   title: 'Frontend Developer',
-  //   place: 'Freelance',
-  //   date: '2026 – Present',
-  //   desc: 'Building responsive web applications using React.js, Next.js, TypeScript, Tailwind CSS, and REST APIs.',
-  // },
+  {
+    type: 'work',
+    icon: <FaBriefcase />,
+    title: 'Frontend Developer',
+    place: 'Freelance',
+    date: '2026 – Present',
+    desc: 'Building responsive web applications using React.js, Next.js, TypeScript, Tailwind CSS, and REST APIs.',
+  },
 ];
 
 export default function Timeline() {

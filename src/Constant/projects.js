@@ -39,7 +39,7 @@ export const projects = [
       'React Context',
       'React Query',
     ],
-    link: 'https://super-fitness-seven.vercel.app/',
+    link: 'https://power-fit-green.vercel.app/',
   },
   {
     icon: '/images/rose.png',

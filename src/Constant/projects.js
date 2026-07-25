@@ -18,7 +18,7 @@ export const projects = [
       'React Context',
       'React Query',
     ],
-    link: 'https://manara-mauve.vercel.app/en',
+    link: 'https://almanarh.com.sa/en',
   },
   {
     icon: '/images/power-fit.png',

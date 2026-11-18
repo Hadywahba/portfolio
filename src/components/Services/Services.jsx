@@ -2,16 +2,11 @@ import { useState } from 'react';
 import Serviceitems from './Serviceitems';
 import {
   FaCode,
-  FaDesktop,
-  FaEnvelope,
-  FaPaintBrush,
-  FaPhoneAlt,
+  FaServer,
 } from 'react-icons/fa';
 import {
-  MdAnimation,
   MdDesignServices,
   MdDevices,
-  MdTouchApp,
 } from 'react-icons/md';
 import { TbDeviceLaptop } from 'react-icons/tb';
 
@@ -41,6 +36,12 @@ export default function Services() {
       label: 'Web Design',
       text: 'planning, conceptualizing, and arranging content online. designing website include the website’s overall functionality, web apps and user interface design.',
       id: '4',
+    },
+    {
+      icon: <FaServer />,
+      label: 'Backend Development',
+      text: 'I build backend applications and RESTful APIs using Node.js and Express.js, working with SQL, MySQL, MongoDB, and Mongoose. Focused on authentication, database management, API integration, and writing secure, scalable, and maintainable code.',
+      id: '5',
     },
   ]);
 

@@ -8,7 +8,7 @@ export default function Serviceitems({ item }) {
     <>
       <motion.div
         variants={
-          ['1', '3'].includes(item.id)
+          ['1', '3' , '5'].includes(item.id)
             ? servicesvarient.fromleft
             : servicesvarient.fromright
         }

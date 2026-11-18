@@ -35,7 +35,7 @@ export default function Home() {
               i'm{' '}
               <span className="text-text-dark-color dark:text-text-color">
                 <ReactTyped
-                  strings={['a Front End Developer']}
+                  strings={['a Full-Stack Developer ']}
                   typeSpeed={30}
                   backSpeed={30}
                   loop
@@ -43,7 +43,7 @@ export default function Home() {
               </span>
             </h2>
             <span className="title mb-4">
-              Hello, My name is Hady i'm a Front End Developer
+              Hello, My name is Hady i'm a Full-Stack Developer
             </span>
           </div>
           <div className="flex flex-col items-center md:items-start">
@@ -112,7 +112,7 @@ export default function Home() {
                 {' '}
                 <a
                   download
-                  href="/Hady Wahba.pdf"
+                  href="/hady wahba.pdf"
                   className="flex items-center justify-center gap-1"
                 >
                   <FaArrowDown /> CV

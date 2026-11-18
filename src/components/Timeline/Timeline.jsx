@@ -42,6 +42,15 @@ const timelineData = [
     date: '2026 – Present',
     desc: 'Building responsive web applications using React.js, Next.js, TypeScript, Tailwind CSS, and REST APIs.',
   },
+
+  {
+    type: 'education',
+    icon: <FaGraduationCap />,
+    title: 'Backend Development Bootcamp',
+    place: 'Route Academy',
+    date: '2026 – Present',
+    desc: 'Studying backend development using Node.js, Express.js, SQL, MySQL, MongoDB, and Mongoose, with hands-on experience building RESTful APIs and backend applications.',
+  },
 ];
 
 export default function Timeline() {

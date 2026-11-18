@@ -35,12 +35,10 @@ export default function About() {
                 variants={LeftVarient}
                 className="abut mb-4 text-xl text-black dark:text-white md:text-justify"
               >
-                I'm Hady Wahba, a passionate Front-End Developer with a
-                background in Mechatronics Engineering. I enjoy building
-                responsive and interactive web interfaces using React.js,
-                Next.js, Redux, Javascript, Typescript, Bootstrap, Tailwind CSS,
-                and modern web technologies. I'm constantly learning and aiming
-                to become a full-stack developer.
+                I'm Hady Wahba, a Full-Stack Developer with 1.5 years of frontend development experience building responsive and scalable web applications
+                using React.js, Next.js, and TypeScript. Experienced in developing user interfaces, integrating APIs, and building backend
+                applications using Node.js, Express.js, SQL, MySQL, MongoDB, and Mongoose. Focused on writing clean, maintainable code
+                and developing reliable, scalable web applications.
               </motion.p>
             </motion.div>
 
@@ -80,14 +78,14 @@ export default function About() {
                 className="about-all mb-10 flex w-full cursor-pointer items-center justify-start gap-4 bg-slate-300 bg-opacity-40 p-4 shadow-xl hover:animate-bounce hover:bg-text-dark-color hover:text-white dark:bg-slate-600 dark:hover:bg-text-color dark:hover:text-black"
               >
                 <FaBirthdayCake className="ps-4 text-4xl" />
-                <h4 className="text-md font-Lato md:text-xl">26</h4>
+                <h4 className="text-md font-Lato md:text-xl">27</h4>
               </motion.div>
               <motion.div
                 variants={LeftVarient}
                 className="about-all flex w-full cursor-pointer items-center justify-start gap-4 bg-slate-300 bg-opacity-40 p-4 shadow-xl hover:animate-bounce hover:bg-text-dark-color hover:text-white dark:bg-slate-600 dark:hover:bg-text-color dark:hover:text-black"
               >
                 <MdWorkspacePremium className="ps-4 text-4xl" />
-                <h4 className="text-md font-Lato md:text-xl">1 Year</h4>
+                <h4 className="text-md font-Lato md:text-xl">1.5 Year</h4>
               </motion.div>
             </motion.div>
           </div>
